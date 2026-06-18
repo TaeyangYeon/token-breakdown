@@ -23,8 +23,10 @@ claude --plugin-dir .
 
 Or install via plugin command
 
-/plugin marketplace add TaeyangYeon/token-breakdown
-/plugin install token-breakdown@token-breakdown
+git clone https://github.com/TaeyangYeon/token-breakdown
+claude --plugin-dir ./token-breakdown
+
+cp -r ./token-breakdown ~/.claude/skills/token-breakdown
 
 Phases
 
