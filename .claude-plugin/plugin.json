@@ -1,0 +1,8 @@
+{
+  "name": "token-breakdown",
+  "description": "Appends a token usage breakdown (Plan / Code / Review %) after every response so you always know where your tokens went.",
+  "author": {
+    "name": "your-github-username"
+  },
+  "category": "development"
+}
