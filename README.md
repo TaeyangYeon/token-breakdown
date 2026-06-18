@@ -20,8 +20,6 @@ cd token-breakdown
 
 # Load into Claude Code
 claude --plugin-dir .
-
-Or install via plugin command
 ```
 git clone https://github.com/TaeyangYeon/token-breakdown
 
