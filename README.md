@@ -15,7 +15,7 @@ Why: Most tokens went to writing the implementation — logic was straightforwar
 Install
 
 bash# Clone the repo
-git clone https://github.com/your-username/token-breakdown
+git clone https://github.com/TaeyangYeon/token-breakdown
 cd token-breakdown
 
 # Load into Claude Code
@@ -23,7 +23,8 @@ claude --plugin-dir .
 
 Or install via plugin command
 
-/plugin install token-breakdown@claude-plugins-community
+/plugin marketplace add TaeyangYeon/token-breakdown
+/plugin install token-breakdown@token-breakdown
 
 Phases
 
